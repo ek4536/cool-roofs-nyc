@@ -1,0 +1,39 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Data files
+data/
+*.csv
+*.geojson
+*.shp
+*.dbf
+*.prj
+*.shx
+*.parquet
+*.feather
+*.tif
+*.tiff
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model / output artifacts
+*.pkl
+*.joblib
+*.h5
+models/
+outputs/
+
+# Secrets
+secrets.py
+config_local.py
